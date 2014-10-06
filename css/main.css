@@ -5,3 +5,30 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
+header, section, footer {
+	padding: 1em;
+
+}
+
+header {
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	color:#FFFFFF;
+}
+
+header a:link,
+header a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em
+}
+
+header a:hover,
+header a:focus {
+	text-decoration: underline;
+	color: #ffffff;
+	background-color: #cc0000;
+}
