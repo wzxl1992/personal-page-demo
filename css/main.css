@@ -32,3 +32,32 @@ header a:focus {
 	color: #ffffff;
 	background-color: #cc0000;
 }
+
+#about {
+	background-color: #F4D64A;
+
+}
+
+#education, #contact {
+
+	background-color: #A66106;
+}
+
+footer {
+	background-color: #DA2424;
+}
+#about img {
+
+	max-height: 100px;
+	float: left;
+	margin-right: 1em;
+}
+
+#education {
+
+	clear: both;
+}
+#about img:hover {
+	opacity: 0.5;
+}
+
